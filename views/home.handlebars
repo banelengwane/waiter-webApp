@@ -1,0 +1,28 @@
+<div class="row container">
+    <div class="appName">
+        <h1>Waiter Web-App</h1>
+    </div>
+
+    <div class="row App">
+        <form action="/waiter:name" method="post">
+            <div class="waiterNames">
+                <span class="wNames">Name</span>
+                <input type="text" name="nameField" placeholder="Enter name" class="nameField">
+            </div>
+
+            <div class="days">
+                <input type="checkbox" name="workday" id="workday" value="monday"> Monday
+                <input type="checkbox" name="workday" id="workday" value="tuesday"> Tuesday
+                <input type="checkbox" name="workday" id="workday" value="wedneday"> Wednesday
+                <input type="checkbox" name="workday" id="workday" value="thursday"> Thursday
+                <input type="checkbox" name="workday" id="workday" value="friday"> Friday
+            </div>
+
+            <div class="row buttons">
+                <button class="button-primary submitBtn" type="submit" name="button">Submit</button>
+                <a class="reset" href="/clear"> Reset </a>
+            </div>  
+
+        </form>
+    </div>
+</div>
